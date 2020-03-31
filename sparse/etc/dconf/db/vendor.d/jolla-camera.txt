@@ -1,0 +1,56 @@
+[apps/jolla-camera]
+cameraDevice='primary'
+captureMode='image'
+portraitCaptureButtonLocation=3
+landscapeCaptureButtonLocation=5
+saveLocationInfo=false
+exposureCompensation=0
+whiteBalance=0
+
+[apps/jolla-camera/primary/image]
+captureMode=1
+iso=0
+flash=1
+exposureMode=1
+meteringMode=1
+timer=0
+viewfinderGrid='none'
+viewfinderGridValues=['none', 'thirds', 'ambience']
+meteringModeValues=[1, 2, 3]
+exposureModeValues=[1]
+
+[apps/jolla-camera/secondary/image]
+captureMode=1
+iso=0
+flash=2
+exposureMode=1
+meteringMode=1
+timer=0
+viewfinderGrid='none'
+viewfinderGridValues=['none', 'thirds', 'ambience']
+meteringModeValues=[1, 2, 3]
+exposureModeValues=[1]
+
+[apps/jolla-camera/primary/video]
+captureMode=2
+iso=0
+flash=2
+exposureMode=1
+meteringMode=1
+timer=0
+viewfinderGrid='none'
+viewfinderGridValues=['none', 'thirds', 'ambience']
+meteringModeValues=[1, 2, 3]
+exposureModeValues=[1]
+
+[apps/jolla-camera/secondary/video]
+captureMode=2
+iso=0
+flash=2
+exposureMode=1
+meteringMode=1
+timer=0
+viewfinderGrid='none'
+viewfinderGridValues=['none', 'thirds', 'ambience']
+meteringModeValues=[1, 2, 3]
+exposureModeValues=[1]
